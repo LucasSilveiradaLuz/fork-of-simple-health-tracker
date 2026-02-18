@@ -30,11 +30,13 @@ Open the project in VS Code, identify the errors, and fix them. Make sure the ca
 
 ### 4. Commit and Push
 
-After fixing everything, save your changes:
+Instead of sending everything at once, make one commit for each bug you fix. This helps keep the project history organized and easy to follow.
+
+After fixing a specific bug, run:
 
 ```bash
 git add .
-git commit -m "Fix: all bugs identified and resolved"
+git commit -m "fix: description of the specific bug fixed"
 git push origin main
 ```
 
