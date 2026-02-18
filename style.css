@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+/* ERRO 6: Seletor errado (usando id como classe) */
+.btn-calc {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+/* ERRO 7: Falta ponto e vírgula no final da propriedade */
+#result {
+    margin-top: 20px
+    font-weight: bold;
+}
