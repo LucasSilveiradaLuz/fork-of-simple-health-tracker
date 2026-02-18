@@ -7,7 +7,6 @@ btn.addEventListener('click', function() {
 
     if (weight > 0 && height > 0) {
         
-        
         const bmi = weight * (height + height);
 
         
